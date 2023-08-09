@@ -1,3 +1,5 @@
+@RunWith(SpringRunner.class)
+@SpringBootTest
 package com.examly.springapp;
 //package ai.iamneo.testing.Testing_Selenium_TestNg;
 import org.testng.annotations.Test;
@@ -10,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
-public class AppTest {
+public class SpringApplicationTests {
 
 	ChromeOptions chromeOptions = new ChromeOptions();
 	WebDriver driver = null;
