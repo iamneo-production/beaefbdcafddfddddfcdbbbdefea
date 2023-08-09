@@ -1,5 +1,4 @@
-@RunWith(SpringRunner.class)
-@SpringBootTest
+
 package com.examly.springapp;
 //package ai.iamneo.testing.Testing_Selenium_TestNg;
 import org.testng.annotations.Test;
